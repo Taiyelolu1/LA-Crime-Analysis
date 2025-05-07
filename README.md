@@ -11,6 +11,7 @@ The data originally contained a table with multiple fields and records. The data
 * Renaming Columns: Some columns were also renamed and capitalized for easy understanding in the course of the project.
 * Replacing values: Columns with blank rows were replcaed with "Unknown". Records from the Victim Descent column were replaced based on the column description.
 * Formatting columns: Records in the columns were trimmed, and given proper casing to give a better uniform look of the table.
+* Added column: Added a new column "Hour" by extracting the hour from the column Time_Occ.
 
 **The CrimeData** having gone through numerous transformations in the Power Query Editor was left with the following columns:
 * Dr_No: Division of Records Number.
@@ -40,4 +41,23 @@ A Project Workflow provides a good structure for every data analytics project. I
 4. Data analysis and visualization.
 5. Interpretation and reporting.
 
-## Project objective
+## Project Objective
+The objective of this project is to analyze crime data from the Los Angeles Police Department (LAPD) from 2020-2025 to uncover patterns, trends, and high-risk areas across time, location, and crime types. Using Power BI, the project aims to provide interactive dashboards that support data-driven insights for public safety awareness, resource allocation, and strategic decision-making.
+
+## Data Collection 
+The data for this project was collected from (name the place and leave a possible link). The data included records of various crimes, date reported, weapons used, places they occurred across different locations in LA and others as listed in the data overview above.
+## Data Cleaning & Preparation
+The data cleaning process began in the Power Query Editor in Power BI. Here, some major operations such as removal of duplicates, and removal of unwanted columns were done. Other text operations such as capitalising, trimming, and replacing values were also carried out on some columns. The M Query Codes (put the link) from the Power Query Editor have been attached to this repository. Please note that the Power Query Editor automatically writes/generates these codes based on the steps applied in the editor.
+
+After data cleaning, a new column **Hour** was created by extracting the hours from the column **Time_Occ**. This was done in the Power Query Editor. 
+
+Outside Power Query Editor, a **DateTable** was created using the minimum date from the column Date_Occ and maximum date from the column Date_Rptd. This table was marked as the date table. A new relationship was then created between the DateTable and the Date_Occ as well as the DateTable and Date_Rptd. 
+
+In addition, I created new measures and new columns to provide in-depth insights into the various crime records. Some of these measures and columns include:
+**Columns**
+* **Age Band**: This column was created to group the different ages to simplify analysis and highlight at-risk groups.
+* **TimeOfDay**: Instead of analyzing crime by exact timestamps (e.g., 21:47 or 03:15), these bands provide a clear summary of crime patterns across the day.
+* **Report Delay (Days)**: This is the difference between the time the crime occurred and when it was reported.
+* **Report Delay Band**: This groups the time difference between the time the crime occurred and when it was reported to give a clearer picture of the time gap.
+
+Helper columns were created for the Age Band and Report Delay Band for proper sorting to help when visualizing the data. 
