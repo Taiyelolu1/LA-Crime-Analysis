@@ -109,3 +109,22 @@ Insert snapshot of the report.
    * The top victims by decent were Hispanic/Laotianatin/Mexican, Unknown, White, Black and Others.
 
 Insert snapshot of the report 
+
+3. **Crime Trends**: This section shows the trend of crimes with relation to time. 
+   * The YoY % crime change between 2020-2025 was 5.02%, 12.09%, -1.24%, -45.09% and -99.44% for each of the following years progressively.
+   * Averagely, the peak crime time is at night (9PM-4AM), while the morning time (5AM-11AM) recorded the least crime occurrence. However, 2020, 2024 and 2025 had Afternoon as the peak crime time.
+   * Averagely, the months with the highest crime records from 2020-2025 were January, March and October.
+
+Insert snapshot of the report 
+
+4. **Crime Metrics**: This page is focused on ranking and concentration of crimes by location, type, and method.
+   * The street was the premise with the highest crime occurrence all through 2020-2025 making it a serious crime hotspot. Other top crime hotspots were single family dwelling, multi-unit dwelling, parking lot, and other business.
+   * The top five (5) crime stations/communities were Central, 77th street, Pacific, Southwest, and Hollywood.
+   * The most common crimes reported were vehicle stolen, battery (simple assault), burglary from vehicle, theft of identity, and vandalism.
+   * Most common weapons used during these crimes were unknown (not specified/recorded), Strong-arm (bodily force), other weapons, verbal threat, and hand gun.
+
+Insert snapshot of the report 
+
+5. **Crime Resolution**: This page analyzes the reporting behaviour and the status progression of crimes reported.
+   * Majority of the crimes were reported within the first and second day of occurrence.
+   * Majority of the cases (803,946) are still undergoing investigation. Only a few have been solved, the bigger portions being Adult Other (109,255) and Adult Arrest(86,877). The other distribution of cases status include Juvenile Arrest (3,249), Juvenile Other (1,864) and Unknown (7).
