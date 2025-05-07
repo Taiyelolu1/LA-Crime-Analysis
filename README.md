@@ -73,3 +73,8 @@ Helper columns were created for the Age Band and Report Delay Band for proper so
 * **YoY % Crime Change**: This visualizes the percentage change in crime rate from one year to another. 
 
 Click here (Link to the file) to view the DAX functions used to create the measures, calculated columns, and table.
+
+## Data Model
+I created a relationship between the DateTable and the Date_Occ as well as the Date_Rptd. I also created a relationship between the Age Band helper table and the Age Band column as well as the Report Delay helper table and the Report Delay (Days) column. 
+
+## Data Analysis & Visualization
