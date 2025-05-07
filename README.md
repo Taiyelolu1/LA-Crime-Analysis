@@ -54,6 +54,7 @@ After data cleaning, a new column **Hour** was created by extracting the hours f
 Outside Power Query Editor, a **DateTable** was created using the minimum date from the column Date_Occ and maximum date from the column Date_Rptd. This table was marked as the date table. A new relationship was then created between the DateTable and the Date_Occ as well as the DateTable and Date_Rptd. 
 
 In addition, I created new measures and new columns to provide in-depth insights into the various crime records. Some of these measures and columns include:
+
 **Columns**
 * **Age Band**: This column was created to group the different ages to simplify analysis and highlight at-risk groups.
 * **TimeOfDay**: Instead of analyzing crime by exact timestamps (e.g., 21:47 or 03:15), these bands provide a clear summary of crime patterns across the day.
@@ -61,3 +62,12 @@ In addition, I created new measures and new columns to provide in-depth insights
 * **Report Delay Band**: This groups the time difference between the time the crime occurred and when it was reported to give a clearer picture of the time gap.
 
 Helper columns were created for the Age Band and Report Delay Band for proper sorting to help when visualizing the data. 
+
+**Measures**
+* **Total Crimes**: This counts the total records of crimes recorded between 2020-2025.
+* **Most Affected Area**: This shows the community with the highest crime records. 
+* **Avg Victim Age**: This was created to get insights on the average age of crime victims.
+* **Peak Crime Time**: This shows the time of the day with the highest crime activities recorded based on the grouping of the timestamps.
+* **Top Crime Type**: This shows the top crime types based on the number of records. 
+* **Previous Year Crimes**: This counts the total number of crimes for each of the previous years. This is to be used in calculating the YoY % Crime Change. 
+* **YoY % Crime Change**: This visualizes the percentage change in crime rate from one year to another. 
