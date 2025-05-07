@@ -86,6 +86,8 @@ Click here (Link to the file) to view the DAX functions used to create the measu
 ## Data Model
 I created a relationship between the DateTable and the Date_Occ as well as the Date_Rptd. I also created a relationship between the Age Band helper table and the Age Band column as well as the Report Delay helper table and the Report Delay (Days) column. 
 
+Insert snapshot of Data Model
+
 ## Data Analysis & Visualization
 After completing the data cleaning and preparation, I began with my analysis and visualization. The visualizations were divided into four (4) report pages for easy navigation and clarity of analysis. These reports were used to effectively visualize key insights from this analysis.
 
