@@ -51,7 +51,7 @@ The data cleaning process began in the Power Query Editor in Power BI. Here, som
 
 After data cleaning, a new column **Hour** was created by extracting the hours from the column **Time_Occ**. This was done in the Power Query Editor. 
 
-Outside Power Query Editor, a **DateTable** was created using the minimum date from the column Date_Occ and maximum date from the column Date_Rptd. This table was marked as the date table. A new relationship was then created between the DateTable and the Date_Occ as well as the DateTable and Date_Rptd. 
+Outside Power Query Editor, a **DateTable** was created using the minimum date from the column Date_Occ and maximum date from the column Date_Rptd. The table contained columns for date, year, Month Number, Month, Day number and Day. This table was marked as the date table. A new relationship was then created between the DateTable and the Date_Occ as well as the DateTable and Date_Rptd. 
 
 In addition, I created new measures and new columns to provide in-depth insights into the various crime records. Some of these measures and columns include:
 
@@ -71,3 +71,5 @@ Helper columns were created for the Age Band and Report Delay Band for proper so
 * **Top Crime Type**: This shows the top crime types based on the number of records. 
 * **Previous Year Crimes**: This counts the total number of crimes for each of the previous years. This is to be used in calculating the YoY % Crime Change. 
 * **YoY % Crime Change**: This visualizes the percentage change in crime rate from one year to another. 
+
+Click here (Link to the file) to view the DAX functions used to create the measures, calculated columns, and table.
