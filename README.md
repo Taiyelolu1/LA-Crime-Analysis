@@ -58,6 +58,17 @@ In addition, I created new measures and new columns to provide in-depth insights
 **Columns**
 * **Age Band**: This column was created to group the different ages to simplify analysis and highlight at-risk groups.
 * **TimeOfDay**: Instead of analyzing crime by exact timestamps (e.g., 21:47 or 03:15), these bands provide a clear summary of crime patterns across the day.
+
+  The TimeOfDay ranges are:
+  
+  5AM-11AM = Morning
+  
+  12PM-5PM = Afternoon
+  
+  6PM-8PM = Evening
+  
+  9PM-4AM = Night
+  
 * **Report Delay (Days)**: This is the difference between the time the crime occurred and when it was reported.
 * **Report Delay Band**: This groups the time difference between the time the crime occurred and when it was reported to give a clearer picture of the time gap.
 
@@ -65,6 +76,7 @@ Helper columns were created for the Age Band and Report Delay Band for proper so
 
 **Measures**
 * **Total Crimes**: This counts the total records of crimes recorded between 2020-2025.
+* **Victim Count**: This counts the total number of victims of the crimes. This is used in visualizing victims by descent and age band. 
 * **Most Affected Area**: This shows the community with the highest crime records. 
 * **Avg Victim Age**: This was created to get insights on the average age of crime victims.
 * **Peak Crime Time**: This shows the time of the day with the highest crime activities recorded based on the grouping of the timestamps.
@@ -78,3 +90,14 @@ Click here (Link to the file) to view the DAX functions used to create the measu
 I created a relationship between the DateTable and the Date_Occ as well as the Date_Rptd. I also created a relationship between the Age Band helper table and the Age Band column as well as the Report Delay helper table and the Report Delay (Days) column. 
 
 ## Data Analysis & Visualization
+After completing the data cleaning and preparation, I began with my analysis and visualization. The visualizations were divided into four (4) report pages for easy navigation and clarity of analysis. These reports were used to effectively visualize key insights from this analysis.
+
+Some Key Insights from the data visualization are summarized below:
+
+1. **Overview**: This section gives an overwiew of the whole data.
+* There were a total of **1,005,198** crimes reported between 2020-2025 as of the time the data was collected (the data is frequently updated).
+* **Central** community station was the most affected area in terms of number of crimes reported.
+* The average victim age was **29years**.
+* The peak crime time was at **Night**.
+* The average YoY % crime change between 2020-2025 was **8.09%**.
+* The year **2022** had the highest number of crimes reported (235,258).
