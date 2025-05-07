@@ -60,14 +60,11 @@ In addition, I created new measures and new columns to provide in-depth insights
 * **TimeOfDay**: Instead of analyzing crime by exact timestamps (e.g., 21:47 or 03:15), these bands provide a clear summary of crime patterns across the day.
 
   The TimeOfDay ranges are:
-  
-  5AM-11AM = Morning
-  
-  12PM-5PM = Afternoon
-  
-  6PM-8PM = Evening
-  
-  9PM-4AM = Night
+
+  * 5AM-11AM = Morning
+  * 12PM-5PM = Afternoon
+  * 6PM-8PM = Evening
+  * 9PM-4AM = Night
   
 * **Report Delay (Days)**: This is the difference between the time the crime occurred and when it was reported.
 * **Report Delay Band**: This groups the time difference between the time the crime occurred and when it was reported to give a clearer picture of the time gap.
@@ -95,9 +92,18 @@ After completing the data cleaning and preparation, I began with my analysis and
 Some Key Insights from the data visualization are summarized below:
 
 1. **Overview**: This section gives an overwiew of the whole data.
-* There were a total of **1,005,198** crimes reported between 2020-2025 as of the time the data was collected (the data is frequently updated).
-* **Central** community station was the most affected area in terms of number of crimes reported.
-* The average victim age was **29years**.
-* The peak crime time was at **Night**.
-* The average YoY % crime change between 2020-2025 was **8.09%**.
-* The year **2022** had the highest number of crimes reported (235,258).
+   * There were a total of **1,005,198** crimes reported between 2020-2025 as of the time the data was collected (the data is frequently updated).
+   * **Central** community station was the most affected area in terms of number of crimes reported.
+   * The average victim age was **29years**.
+   * The peak crime time was at **Night**.
+   * The average YoY % crime change between 2020-2025 was **8.09%**.
+   * The year **2022** had the highest number of crimes reported (235,258).
+
+Insert snapshot of the report.
+
+2. **Victim Demographic**: This gives all the details about victims of the various crimes.
+   * In terms of distribution by sex, 40.18% were males, 35.67% females and 24.14% unknown. 
+   * The highest number of victims were between the age bracket 20-39years while the least being 80years and above. 
+   * The top victims by decent were Hispanic/Laotianatin/Mexican, Unknown, White, Black and Others.
+
+Insert snapshot of the report 
