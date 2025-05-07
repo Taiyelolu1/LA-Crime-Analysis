@@ -99,13 +99,13 @@ Some Key Insights from the data visualization are summarized below:
    * The average victim age was **29years**.
    * The peak crime time was at **Night**.
    * The average YoY % crime change between 2020-2025 was **8.09%**.
-   * The year **2022** had the highest number of crimes reported (235,258).
+   * The year **2022** had the highest number of crimes reported **(235,258)**.
 
 Insert snapshot of the report.
 
 2. **Victim Demographic**: This gives all the details about victims of the various crimes.
    * In terms of distribution by sex, 40.18% were males, 35.67% females and 24.14% unknown. 
-   * The highest number of victims were between the age bracket 20-39years while the least being 80years and above. 
+   * The highest number of victims were between the age bracket 20-39years with 374,825 records while the least being 80years and above with 8,270 records. 
    * The top victims by decent were Hispanic/Laotianatin/Mexican, Unknown, White, Black and Others.
 
 Insert snapshot of the report 
@@ -126,5 +126,14 @@ Insert snapshot of the report
 Insert snapshot of the report 
 
 5. **Crime Resolution**: This page analyzes the reporting behaviour and the status progression of crimes reported.
-   * Majority of the crimes were reported within the first and second day of occurrence.
+   * Majority of the crimes were reported within 48hrs of occurrence.
    * Majority of the cases (803,946) are still undergoing investigation. Only a few have been solved, the bigger portions being Adult Other (109,255) and Adult Arrest(86,877). The other distribution of cases status include Juvenile Arrest (3,249), Juvenile Other (1,864) and Unknown (7).
+
+Insert snapshot of the report 
+
+## Conclusion
+This analysis of the Los Angeles crime dataset reveals clear trends in how, when, and where crimes occur across the city. Time-based analysis highlighted fluctuations in crime rates throughout the year, with noticeable peaks during specific months and time-of-day bands. Geographic breakdowns exposed high-risk areas and police divisions with consistently elevated incident volumes, emphasizing the need for targeted interventions.
+
+Victim age bands and demographic insights showed that certain groups are more vulnerable to specific crime types, supporting the development of more tailored community safety programs. The delay between when crimes occur and when they are reported also varied widely, indicating potential barriers to timely reporting that could hinder case resolution.
+
+Finally, analysis of case statuses and weapon usage offered operational insights that can help the LAPD and policymakers improve resource allocation, public awareness, and crime prevention strategies. This report serves as a foundation for ongoing monitoring, informed decision-making, and collaboration between law enforcement and the community.
