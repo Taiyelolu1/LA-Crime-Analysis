@@ -137,3 +137,31 @@ This analysis of the Los Angeles crime dataset reveals clear trends in how, when
 Victim age bands and demographic insights showed that certain groups are more vulnerable to specific crime types, supporting the development of more tailored community safety programs. The delay between when crimes occur and when they are reported also varied widely, indicating potential barriers to timely reporting that could hinder case resolution.
 
 Finally, analysis of case statuses and weapon usage offered operational insights that can help the LAPD and policymakers improve resource allocation, public awareness, and crime prevention strategies. This report serves as a foundation for ongoing monitoring, informed decision-making, and collaboration between law enforcement and the community.
+
+## Recommendations
+Based on the analysis and key insights derived from this project, I was able to come up with the following recommendations:
+1. **Enhance Nighttime Patrols & Surveillance**
+Since crimes peak at night (9:00 PM - 4:00 AM), targeted nighttime law enforcement visibility especially in high-risk areas like streets, parking lots, and densely populated neighborhoods can help deter criminal activity.
+
+2. **Focus Resources on Central & High-Incidence Communities**
+Given that Central, 77th Street, and Pacific communities are the most affected, LAPD should prioritize these divisions for preventive strategies, community engagement, and infrastructure improvements (e.g., lighting, cameras).
+
+3. **Strengthen Vehicle Theft Prevention Campaigns**
+With vehicle theft ranking as the top crime, launch public awareness campaigns and vehicle security programs in partnership with community groups and local media.
+
+4. **Accelerate Case Resolution Processes**
+With over 800,000 cases still under investigation, LAPD may need to review investigative workflows, optimize resource allocation, and possibly adopt digital tools to track and expedite case handling.
+
+5. **Address Data Gaps** (e.g., 'Unknown' Weapon and Victim Info)
+The high number of records with unknown victim sex, weapon type, or descent suggests data quality challenges. Recommend training for field officers on accurate data collection and system enhancements to reduce "unknown" entries.
+
+6. **Tailor Victim Support Services by Demographics**
+Since the majority of victims are aged 20–39, design support services and outreach programs targeting young adults—especially around identity theft, assault, and domestic incidents.
+
+7. **Investigate Delay Patterns in Crime Reporting**
+While most crimes are reported within 48 hours, delays in certain cases might reflect fear, lack of access, or mistrust. Conduct community research to uncover and address these barriers.
+
+8. **Utilize Seasonal & Monthly Trends for Proactive Measures**
+With spikes in crime seen in January, March, and October, LAPD can launch seasonal initiatives, public safety campaigns, and increased patrols around those months.
+
+
