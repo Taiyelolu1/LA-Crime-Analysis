@@ -1,9 +1,10 @@
 # LA Crime Analysis
-This project gives a detailed analysis of the LAPD crime data between 2020-2025. It shows an overview, victim demographic, crime breakdown, crime snapshot and resolution. The data used for this project was sourced from (look for the link to the dataset). 
+This project provides a comprehensive analysis of LAPD crime data from 2020 to 2025. It covers key areas including an overview of crime trends, victim demographics, a breakdown of crime patterns, a snapshot of high-incidence factors, and case resolution insights. The data used for this project was sourced from DATA.GOV [Crime Data from 2020 to Present](https://catalog.data.gov/dataset/crime-data-from-2020-to-present). 
 ## Project Background
-The Los Angeles Police Department (LAPD) is the primary law enforcement agency of Los Angeles, California, United States. It is responsible for maintaining public safety, enforcing laws and preventing crimes. The department's organization includes 21 community stations (divisions).
+The Los Angeles Police Department (LAPD) serves as the primary law enforcement agency for Los Angeles, California, and is tasked with maintaining public safety, enforcing laws, and preventing crime. The department operates through 21 community stations (divisions) distributed across the city.
 
-The analysis of the LAPD crime data helps us understand the crime trends in Los Angeles, the victim demographic and the resolution rate. It helps us with insights on the crime hotspots, target victims and peak crime periods. This helps us to make decisons as to how to reduce crime in Los Angeles.
+This project analyzes LAPD crime data to uncover crime trends, victim demographics, and case resolution patterns. It provides insights into crime hotspots, targeted victim groups, and peak crime periods, all of which are essential for informing strategies aimed at reducing crime and improving public safety in Los Angeles.
+
 ## Overview of the Data
 The data originally contained a table with multiple fields and records. The data was cleaned and transformed using the Power Query Editor in Power BI. The major transformations carried out in the Power Query Editor inlcude:
 * Removal of duplicates in the unique DR_NO column (Division of Records Number).
@@ -141,22 +142,22 @@ Finally, analysis of case statuses and weapon usage offered operational insights
 ## Recommendations
 Based on the analysis and key insights derived from this project, I was able to come up with the following recommendations:
 1. **Enhance Nighttime Patrols & Surveillance**
-Since crimes peak at night (9:00 PM - 4:00 AM), targeted nighttime law enforcement visibility especially in high-risk areas like streets, parking lots, and densely populated neighborhoods can help deter criminal activity.
+Since crime occurrences are highest at night (9:00 PM - 4:00 AM), law enforcement should prioritize deploying more patrol units and surveillance resources during these hours. Focusing efforts on high-risk locations such as streets, parking lots, and residential areas can significantly deter criminal activity and enhance public safety.
 
 2. **Focus Resources on Central & High-Incidence Communities**
 Given that Central, 77th Street, and Pacific communities are the most affected, LAPD should prioritize these divisions for preventive strategies, community engagement, and infrastructure improvements (e.g., lighting, cameras).
 
-3. **Strengthen Vehicle Theft Prevention Campaigns**
-With vehicle theft ranking as the top crime, launch public awareness campaigns and vehicle security programs in partnership with community groups and local media.
+3. **Develop Victim Support Programs Focused on Young Adults:**
+With individuals aged 20-39 years representing the largest group of crime victims, support services and outreach initiatives should be designed to address the specific needs of this demographic. These may include educational campaigns, mental health support, and community-based interventions for crimes such as identity theft, assault, and domestic violence.
 
-4. **Accelerate Case Resolution Processes**
+4. **Strengthen Vehicle Theft Prevention Campaigns**
+As vehicle theft is the most frequently reported crime, there is a need for targeted prevention efforts. These could include public awareness campaigns, partnerships with local media, and community programs promoting the use of anti-theft devices, secure parking practices, and neighborhood watch initiatives in high-risk areas.
+
+5. **Accelerate Case Resolution Processes**
 With over 800,000 cases still under investigation, LAPD may need to review investigative workflows, optimize resource allocation, and possibly adopt digital tools to track and expedite case handling.
 
-5. **Address Data Gaps** (e.g., 'Unknown' Weapon and Victim Info)
+6. **Address Data Gaps** (e.g., 'Unknown' Weapon and Victim Info)
 The high number of records with unknown victim sex, weapon type, or descent suggests data quality challenges. Recommend training for field officers on accurate data collection and system enhancements to reduce "unknown" entries.
-
-6. **Tailor Victim Support Services by Demographics**
-Since the majority of victims are aged 20–39, design support services and outreach programs targeting young adults—especially around identity theft, assault, and domestic incidents.
 
 7. **Investigate Delay Patterns in Crime Reporting**
 While most crimes are reported within 48 hours, delays in certain cases might reflect fear, lack of access, or mistrust. Conduct community research to uncover and address these barriers.
