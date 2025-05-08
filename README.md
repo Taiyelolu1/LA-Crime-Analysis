@@ -82,7 +82,7 @@ Helper columns were created for the Age Band and Report Delay Band for proper so
 * **Previous Year Crimes**: This counts the total number of crimes for each of the previous years. This is to be used in calculating the YoY % Crime Change. 
 * **YoY % Crime Change**: This visualizes the percentage change in crime rate from one year to another. 
 
-Click here (Link to the file) to view the DAX functions used to create the measures, calculated columns, and table.
+Click [here](https://github.com/Taiyelolu1/LA-Crime-Analysis/blob/main/DAX%20Functions%20for%20LA%20Crime%20Data.txt) to view the DAX functions used to create the measures, calculated columns, and Datetable.
 
 ## Data Model
 I created a relationship between the DateTable and the Date_Occ as well as the Date_Rptd. I also created a relationship between the Age Band helper table and the Age Band column as well as the Report Delay helper table and the Report Delay (Days) column. 
