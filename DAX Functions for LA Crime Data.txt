@@ -1,0 +1,66 @@
+## DATE TABLE
+
+DateTable = CALENDAR(DATE(2020,01,01), DATE(2025,03,28))
+
+## CALCULATED COLUMNS
+
+1. Year = 
+YEAR(DateTable[Date])
+
+2. MonthNumber = 
+MONTH(DateTable[Date])
+
+3. Month = 
+FORMAT(DateTable[Date],"mmm")
+
+4. DayNumber = 
+DAY(DateTable[Date])
+
+5. Day = 
+FORMAT(DateTable[Date],"ddd")
+
+
+## MEASURES 
+
+1. Total Crimes = 
+DISTINCTCOUNT(CrimeData[Dr_No])
+
+2. Victim Count = 
+COUNTROWS(CrimeData)
+
+3. Most Affected Area = 
+CALCULATE (MAXX (TOPN (1,
+SUMMARIZE ('CrimeData','CrimeData'[Area_name],"CrimeCount", COUNTROWS('CrimeData')),
+[CrimeCount], DESC),
+'CrimeData'[Area_name]))
+
+4. Avg Victim Age = 
+AVERAGE(CrimeData[Victim Age])
+
+5. Peak Crime Time = 
+CALCULATE (MAXX (TOPN (1,
+SUMMARIZE ('CrimeData','CrimeData'[TimeOfDay],"CrimeCount", COUNTROWS('CrimeData')),
+[CrimeCount], DESC),
+'CrimeData'[TimeOfDay]))
+
+
+6. Top Crime Type = 
+CALCULATE (MAXX (TOPN (1,
+SUMMARIZE ('CrimeData','CrimeData'[Crime],"CrimeCount", COUNTROWS('CrimeData')),
+[CrimeCount], DESC),
+'CrimeData'[Crime]))
+
+
+7. Previous Year Crimes = 
+CALCULATE([Total Crimes],
+SAMEPERIODLASTYEAR('DateTable'[Date])
+
+8. YoY % Change = 
+DIVIDE([Total Crimes] - [Previous Year Crimes],
+[Previous Year Crimes],0)
+
+
+
+
+
+
