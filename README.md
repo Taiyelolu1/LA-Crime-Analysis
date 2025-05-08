@@ -28,7 +28,7 @@ The data originally contained a table with multiple fields and records. The data
 * Weapon: The type of weapon used in the crime.
 * Status: Status of the case.
 
-***The CSV file generated from the Power Query Editor have been included in the repository for this project. The CSV file for the main table wasn't attached due to it's size, but it can be downloaded here*** (don't forget to add link)
+***The CSV file generated from the Power Query Editor have been included in the repository for this project. The CSV file for the main table wasn't attached due to it's size, but it can be downloaded [here](https://catalog.data.gov/dataset/crime-data-from-2020-to-present)***
 
 ## Tools used 
 1. **Power BI**: This was the major tool used in this project. Power BI was used in creating the visualization and report for the insights generated from this project. Power BI service, a component of Power BI was also utilized in creating a web link that allows interactivity and navigation with the report.
@@ -87,7 +87,8 @@ Click here (Link to the file) to view the DAX functions used to create the measu
 ## Data Model
 I created a relationship between the DateTable and the Date_Occ as well as the Date_Rptd. I also created a relationship between the Age Band helper table and the Age Band column as well as the Report Delay helper table and the Report Delay (Days) column. 
 
-Insert snapshot of Data Model
+![Data Model for LA Crime data](https://github.com/user-attachments/assets/f5e3f709-22b4-48cc-810c-67aeb4df8d41)
+
 
 ## Data Analysis & Visualization
 After completing the data cleaning and preparation, I began with my analysis and visualization. The visualizations were divided into four (4) report pages for easy navigation and clarity of analysis. These reports were used to effectively visualize key insights from this analysis.
@@ -102,21 +103,24 @@ Some Key Insights from the data visualization are summarized below:
    * The average YoY % crime change between 2020-2025 was **8.09%**.
    * Notably, the year **2022** recorded the **highest number of reported crimes** with a total of **235,258** incidents.
 
-Insert snapshot of the report.
+![LA Crime Data-1](https://github.com/user-attachments/assets/611bdfc3-8a6c-4add-bd93-85407a686ca0)
+
 
 2. **Victim Demographic**: This gives all the details about victims of the various crimes.
    * In terms of gender distribution, 40.18% of victims were males, 35.67% females and 24.14% listed as unknown. 
    * The age group with the highest number of victims was 20–39 years, accounting for 374,825 records. The least affected age group was 80 years and above, with 8,270 records.
    * Based on descent, the top victim groups were: Hispanic/Latin/Mexican, Unknown, White, Black and Other ethnicities.
 
-Insert snapshot of the report 
+![LA Crime Data-2](https://github.com/user-attachments/assets/f642e2a2-268e-4aca-ac26-bfb028a89d5e)
+
 
 3. **Crime Trends**: This section shows the trend of crimes with relation to time. 
    * The year-over-year (YoY) percentage change in reported crimes from 2020 to 2025 was: +5.02% (2021), +12.09% (2022), −1.24% (2023), −45.09% (2024), and −99.44% (2025), indicating significant fluctuations in crime trends over the years.
    * On average, the peak crime period occurred at night (9:00 PM – 4:00 AM), while the morning hours (5:00 AM – 11:00 AM) consistently recorded the lowest crime occurrence. However, the years 2020, 2024, and 2025 deviated from this trend, with afternoon hours (12:00 PM - 5:00 PM) emerging as the peak crime period.
    * Across the six-year period, the months with the highest reported crime counts were January, March, and October, indicating potential seasonal patterns in criminal activity.
 
-Insert snapshot of the report 
+![LA Crime Data-3](https://github.com/user-attachments/assets/37cfabb5-1d57-4253-82f0-101b5bc2941c)
+
 
 4. **Crime Metrics**: This page is focused on ranking and concentration of crimes by location, type, and method.
    * The street consistently ranked as the top crime location (premise) from 2020 to 2025, marking it as a persistent crime hotspot throughout the period. Other frequently reported premises included: single family dwellings, multi-unit dwellings, parking lot, and other businesses.
@@ -124,13 +128,15 @@ Insert snapshot of the report
    * The most common crime types reported were: vehicle stolen, battery – simple assault, burglary from vehicle, theft of identity, and vandalism.
    * Regarding weapon usage, the most frequently recorded were: Unknown (not specified/unrecorded), Strong-arm (bodily force), other weapons, verbal threat, and hand gun.
 
-Insert snapshot of the report 
+![LA Crime Data-4](https://github.com/user-attachments/assets/73fa1262-bc8e-4bc6-b3f7-15bc9ca9e2a1)
+
 
 5. **Crime Resolution**: This page analyzes the reporting behaviour and the status progression of crimes reported.
    * The majority of crimes were reported within 48 hours of their occurrence, indicating relatively prompt victim or witness response in most cases.
    * In terms of case status, a large portion of the cases (803,946) remain under investigation as of the time of reporting. Only a smaller fraction has reached resolution, with the most notable outcomes being: Adult Other (109,255), Adult Arrest (86,877), Juvenile Arrest (3,249), Juvenile Other (1,864) and Unknown (7).
 
-Insert snapshot of the report 
+![LA Crime Data-5](https://github.com/user-attachments/assets/464a4fb0-3203-4e6c-adf5-378d53e6fbe0)
+
 
 ## Conclusion
 This analysis of the Los Angeles crime dataset reveals clear trends in how, when, and where crimes occur across the city. Time-based analysis highlighted fluctuations in crime rates throughout the year, with noticeable peaks during specific months and time-of-day bands. Geographic breakdowns exposed high-risk areas and police divisions with consistently elevated incident volumes, emphasizing the need for targeted interventions.
