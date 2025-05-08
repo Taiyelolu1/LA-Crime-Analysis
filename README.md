@@ -48,7 +48,7 @@ The objective of this project is to analyze crime data from the Los Angeles Poli
 ## Data Collection 
 The data for this project was collected from (name the place and leave a possible link). The data included records of various crimes, date reported, weapons used, places they occurred across different locations in LA and others as listed in the data overview above.
 ## Data Cleaning & Preparation
-The data cleaning process began in the Power Query Editor in Power BI. Here, some major operations such as removal of duplicates, and removal of unwanted columns were done. Other text operations such as capitalising, trimming, and replacing values were also carried out on some columns. The M Query Codes (put the link) from the Power Query Editor have been attached to this repository. Please note that the Power Query Editor automatically writes/generates these codes based on the steps applied in the editor.
+The data cleaning process began in the Power Query Editor in Power BI. Here, some major operations such as removal of duplicates, and removal of unwanted columns were done. Other text operations such as capitalising, trimming, and replacing values were also carried out on some columns. The [M Query Codes](https://github.com/Taiyelolu1/LA-Crime-Analysis/blob/main/M%20Query%20Codes%20for%20LA%20Crime%20Data.txt) from the Power Query Editor have been attached to this repository. Please note that the Power Query Editor automatically writes/generates these codes based on the steps applied in the editor.
 
 After data cleaning, a new column **Hour** was created by extracting the hours from the column **Time_Occ**. This was done in the Power Query Editor. 
 
