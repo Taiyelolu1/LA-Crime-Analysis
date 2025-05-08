@@ -104,30 +104,30 @@ Some Key Insights from the data visualization are summarized below:
 Insert snapshot of the report.
 
 2. **Victim Demographic**: This gives all the details about victims of the various crimes.
-   * In terms of **gender distribution, 40.18%** of victims were **males**, **35.67% females** and **24.14%** listed as **unknown**. 
-   * The **age group with the highest number of victims was 20–39 years**, accounting for **374,825** records. The **least affected age group was 80 years and above**, with **8,270** records.
-   * Based on descent, the top victim groups were: **Hispanic/Latin/Mexican, Unknown, White, Black and Other ethnicities**.
+   * In terms of gender distribution, 40.18% of victims were males, 35.67% females and 24.14% listed as unknown. 
+   * The age group with the highest number of victims was 20–39 years, accounting for 374,825 records. The least affected age group was 80 years and above, with 8,270 records.
+   * Based on descent, the top victim groups were: Hispanic/Latin/Mexican, Unknown, White, Black and Other ethnicities.
 
 Insert snapshot of the report 
 
 3. **Crime Trends**: This section shows the trend of crimes with relation to time. 
-   * The **year-over-year (YoY) percentage change in reported crimes** from 2020 to 2025 was: **+5.02% (2021), +12.09% (2022), −1.24% (2023), −45.09% (2024), and −99.44% (2025)**, indicating significant fluctuations in crime trends over the years.
-   * On average, the **peak crime period** occurred at **night (9:00 PM – 4:00 AM)**, while the **morning hours (5:00 AM – 11:00 AM)** consistently recorded the **lowest crime occurrence**. However, the years **2020, 2024**, and **2025** deviated from this trend, with **afternoon hours (12:00 PM - 5:00 PM)** emerging as the peak crime period.
-   * Across the six-year period, the **months with the highest reported crime counts** were **January, March**, and **October**, indicating potential seasonal patterns in criminal activity.
+   * The year-over-year (YoY) percentage change in reported crimes from 2020 to 2025 was: +5.02% (2021), +12.09% (2022), −1.24% (2023), −45.09% (2024), and −99.44% (2025), indicating significant fluctuations in crime trends over the years.
+   * On average, the peak crime period occurred at night (9:00 PM – 4:00 AM), while the morning hours (5:00 AM – 11:00 AM) consistently recorded the lowest crime occurrence. However, the years 2020, 2024, and 2025 deviated from this trend, with afternoon hours (12:00 PM - 5:00 PM) emerging as the peak crime period.
+   * Across the six-year period, the months with the highest reported crime counts were January, March, and October, indicating potential seasonal patterns in criminal activity.
 
 Insert snapshot of the report 
 
 4. **Crime Metrics**: This page is focused on ranking and concentration of crimes by location, type, and method.
-   * The **street** consistently ranked as the **top crime location (premise)** from 2020 to 2025, marking it as a persistent crime hotspot throughout the period. Other frequently reported premises included: **single family dwellings, multi-unit dwellings, parking lot, and other businesses**.
-   * The **top five (5) LAPD stations/communities** with the highest number of reported crimes were: Central, 77th street, Pacific, Southwest, and Hollywood.
-   * The **most common crime types** reported were: **vehicle stolen, battery – simple assault, burglary from vehicle, theft of identity, and vandalism**.
-   * Regarding **weapon** usage, the **most frequently recorded** were: **Unknown (not specified/unrecorded), Strong-arm (bodily force), other weapons, verbal threat, and hand gun**.
+   * The street consistently ranked as the top crime location (premise) from 2020 to 2025, marking it as a persistent crime hotspot throughout the period. Other frequently reported premises included: single family dwellings, multi-unit dwellings, parking lot, and other businesses.
+   * The top five (5) LAPD stations/communities with the highest number of reported crimes were: Central, 77th street, Pacific, Southwest, and Hollywood.
+   * The most common crime types reported were: vehicle stolen, battery – simple assault, burglary from vehicle, theft of identity, and vandalism.
+   * Regarding weapon usage, the most frequently recorded were: Unknown (not specified/unrecorded), Strong-arm (bodily force), other weapons, verbal threat, and hand gun.
 
 Insert snapshot of the report 
 
 5. **Crime Resolution**: This page analyzes the reporting behaviour and the status progression of crimes reported.
-   * The **majority of crimes were reported within 48 hours** of their occurrence, indicating relatively prompt victim or witness response in most cases.
-   * In terms of case status, a large portion of the cases **(803,946)** remain **under investigation** as of the time of reporting. Only a smaller fraction has reached resolution, with the most notable outcomes being: **Adult Other (109,255), Adult Arrest (86,877), Juvenile Arrest (3,249), Juvenile Other (1,864) and Unknown (7)**.
+   * The majority of crimes were reported within 48 hours of their occurrence, indicating relatively prompt victim or witness response in most cases.
+   * In terms of case status, a large portion of the cases (803,946) remain under investigation as of the time of reporting. Only a smaller fraction has reached resolution, with the most notable outcomes being: Adult Other (109,255), Adult Arrest (86,877), Juvenile Arrest (3,249), Juvenile Other (1,864) and Unknown (7).
 
 Insert snapshot of the report 
 
