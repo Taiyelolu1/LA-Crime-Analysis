@@ -6,17 +6,17 @@ The Los Angeles Police Department (LAPD) serves as the primary law enforcement a
 This project analyzes LAPD crime data to uncover crime trends, victim demographics, and case resolution patterns. It provides insights into crime hotspots, targeted victim groups, and peak crime periods, all of which are essential for informing strategies aimed at reducing crime and improving public safety in Los Angeles.
 
 ## Overview of the Data
-The data originally contained a table with multiple fields and records. The data was cleaned and transformed using the Power Query Editor in Power BI. The major transformations carried out in the Power Query Editor inlcude:
+The data originally contained a table with multiple fields and records. The data was `cleaned` and `transformed` using the `Power Query Editor` in Power BI. The major transformations carried out in the Power Query Editor inlcude:
 * Removal of duplicates in the unique DR_NO column (Division of Records Number).
-* Removal of unwanted columns: The initial data had about 28 columns. 16 columns were removed due to inadequate information, and to allow for a more streamlined comprehensive analysis.
+* Removal of unwanted columns: The initial data had about 28 columns. 17 columns were removed due to inadequate information, and to allow for a more streamlined comprehensive analysis.
 * Renaming Columns: Some columns were also renamed and capitalized for easy understanding in the course of the project.
-* Replacing values: Columns with blank rows were replcaed with "Unknown". Records from the Victim Descent column were replaced based on the column description.
+* Replacing values: Columns with blank rows were replaced with "Unknown". Records from the `Victim Descent` were replaced based on the column description.
 * Formatting columns: Records in the columns were trimmed, and given proper casing to give a better uniform look of the table.
-* Added column: Added a new column "Hour" by extracting the hour from the column Time_Occ.
+* Added column: Added a new column `Hour` by extracting the hour from the `Time_Occ`.
 
 **The CrimeData** having gone through numerous transformations in the Power Query Editor was left with the following columns:
 * Dr_No: Division of Records Number.
-* Date_Rptd: Date crime was repoerted.
+* Date_Rptd: Date crime was reported.
 * Date_Occ: Date crime occurred.
 * Time_Occ: Time the crime occurred.
 * Area Name: A designated name that references a landmark or surrounding community where the patrol division is responsisble for.
@@ -31,8 +31,8 @@ The data originally contained a table with multiple fields and records. The data
 ***The CSV file generated from the Power Query Editor have been included in the repository for this project. The CSV file for the main table wasn't attached due to it's size, but it can be downloaded [here](https://catalog.data.gov/dataset/crime-data-from-2020-to-present)***
 
 ## Tools used 
-1. **Power BI**: This was the major tool used in this project. Power BI was used in creating the visualization and report for the insights generated from this project. Power BI service, a component of Power BI was also utilized in creating a web link that allows interactivity and navigation with the report.
-2. **Power Query Editor**: This is an advanced feature of Power BI that allows transformation to be carried out on a dataset. The Power Query Editor was used in carrying out transformations across different columns such as removing duplicates, formatting columns, replacing values, etc.
+1. **Power BI**: This was the major tool used in this project. Power BI was used in creating the `visualization` and report for the insights generated from this project. Power BI service, a component of Power BI was also utilized in creating a web link that allows interactivity and navigation with the report.
+2. **Power Query Editor**: This is an advanced feature of Power BI that allows transformation to be carried out on a dataset. The `Power Query Editor` was used in carrying out transformations across different columns such as removing duplicates, formatting columns, replacing values, etc.
 
 ## Project Workflow
 A Project Workflow provides a good structure for every data analytics project. It helps to establish a clear roadmap of sequential steps from the initial problem to the final insights. This keeps the project organized and aligned with goals. It also outlines tasks within each project phase, preventing important elements from being overlooked and making the process more efficient. The workflow for this project includes:
@@ -46,13 +46,13 @@ A Project Workflow provides a good structure for every data analytics project. I
 The objective of this project is to analyze crime data from the Los Angeles Police Department (LAPD) from 2020-2025 to uncover patterns, trends, and high-risk areas across time, location, and crime types. Using Power BI, the project aims to provide interactive dashboards that support data-driven insights for public safety awareness, resource allocation, and strategic decision-making.
 
 ## Data Collection 
-The data for this project was collected from (name the place and leave a possible link). The data included records of various crimes, date reported, weapons used, places they occurred across different locations in LA and others as listed in the data overview above.
+The data for this project was collected from DATA.GOV. The data included records of various crimes, date reported, weapons used, places they occurred across different locations in LA and others as listed in the data overview above.
 ## Data Cleaning & Preparation
 The data cleaning process began in the Power Query Editor in Power BI. Here, some major operations such as removal of duplicates, and removal of unwanted columns were done. Other text operations such as capitalising, trimming, and replacing values were also carried out on some columns. The [M Query Codes](https://github.com/Taiyelolu1/LA-Crime-Analysis/blob/main/M%20Query%20Codes%20for%20LA%20Crime%20Data.txt) from the Power Query Editor have been attached to this repository. Please note that the Power Query Editor automatically writes/generates these codes based on the steps applied in the editor.
 
-After data cleaning, a new column **Hour** was created by extracting the hours from the column **Time_Occ**. This was done in the Power Query Editor. 
+After data cleaning, a new column `Hour` was created by extracting the hours from the `Time_Occ`. This was done in the Power Query Editor. 
 
-Outside Power Query Editor, a **DateTable** was created using the minimum date from the column Date_Occ and maximum date from the column Date_Rptd. The table contained columns for date, year, Month Number, Month, Day number and Day. This table was marked as the date table. A new relationship was then created between the DateTable and the Date_Occ as well as the DateTable and Date_Rptd. 
+Outside Power Query Editor, a `DateTable` was created using the minimum date from the `Date_Occ` and maximum date from the `Date_Rptd`. The table contained columns for `date`, `year`, `Month Number`, `Month`, `Day number` and `Day`. This table was marked as the date table. A new relationship was then created between the `DateTable` and the `Date_Occ` as well as the `DateTable` and `Date_Rptd`. 
 
 In addition, I created new measures and new columns to provide in-depth insights into the various crime records. Some of these measures and columns include:
 
@@ -70,7 +70,7 @@ In addition, I created new measures and new columns to provide in-depth insights
 * **Report Delay (Days)**: This is the difference between the time the crime occurred and when it was reported.
 * **Report Delay Band**: This groups the time difference between the time the crime occurred and when it was reported to give a clearer picture of the time gap.
 
-Helper columns were created for the Age Band and Report Delay Band for proper sorting to help when visualizing the data. 
+`Helper columns` were created for the `Age Band` and `Report Delay Band` for proper sorting to help when visualizing the data. 
 
 **Measures**
 * **Total Crimes**: This counts the total records of crimes recorded between 2020-2025.
@@ -82,16 +82,16 @@ Helper columns were created for the Age Band and Report Delay Band for proper so
 * **Previous Year Crimes**: This counts the total number of crimes for each of the previous years. This is to be used in calculating the YoY % Crime Change. 
 * **YoY % Crime Change**: This visualizes the percentage change in crime rate from one year to another. 
 
-Click [here](https://github.com/Taiyelolu1/LA-Crime-Analysis/blob/main/DAX%20Functions%20for%20LA%20Crime%20Data.txt) to view the DAX functions used to create the measures, calculated columns, and Datetable.
+Click [here](https://github.com/Taiyelolu1/LA-Crime-Analysis/blob/main/DAX%20Functions%20for%20LA%20Crime%20Data.txt) to view the `DAX functions` used to create the `measures`, `calculated columns`, and `Datetable`.
 
 ## Data Model
-I created a relationship between the DateTable and the Date_Occ as well as the Date_Rptd. I also created a relationship between the Age Band helper table and the Age Band column as well as the Report Delay helper table and the Report Delay (Days) column. 
+I created a relationship between the `DateTable` and the `Date_Occ` as well as the `Date_Rptd`. I also created a relationship between the Age Band helper table and the `Age Band` column as well as the Report Delay helper table and the `Report Delay (Days)` column. 
 
 ![Data Model for LA Crime data](https://github.com/user-attachments/assets/f5e3f709-22b4-48cc-810c-67aeb4df8d41)
 
 
 ## Data Analysis & Visualization
-After completing the data cleaning and preparation, I began with my analysis and visualization. The visualizations were divided into four (4) report pages for easy navigation and clarity of analysis. These reports were used to effectively visualize key insights from this analysis.
+After completing the data cleaning and preparation, I began with my analysis and visualization. The visualizations were divided into five (5) report pages for easy navigation and clarity of analysis. These reports were used to effectively visualize key insights from this analysis.
 
 Some Key Insights from the data visualization are summarized below:
 
