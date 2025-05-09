@@ -28,7 +28,7 @@ The data originally contained a table with multiple fields and records. The data
 * Weapon: The type of weapon used in the crime.
 * Status: Status of the case.
 
-***The CSV file generated from the Power Query Editor have been included in the repository for this project. The CSV file for the main table wasn't attached due to it's size, but it can be downloaded [here](https://catalog.data.gov/dataset/crime-data-from-2020-to-present)***
+***The CSV files and scripts generated from the Power Query Editor have been included in the repository for this project. The CSV file for the main table wasn't attached due to it's size, but it can be downloaded [here](https://catalog.data.gov/dataset/crime-data-from-2020-to-present)***
 
 ## Tools used 
 1. **Power BI**: This was the major tool used in this project. Power BI was used in creating the `visualization` and report for the insights generated from this project. Power BI service, a component of Power BI was also utilized in creating a web link that allows interactivity and navigation with the report.
