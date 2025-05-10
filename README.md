@@ -1,5 +1,5 @@
 # LA Crime Analysis
-This project provides a comprehensive analysis of LAPD crime data from 2020 to 2025. It covers key areas including an overview of crime trends, victim demographics, a breakdown of crime patterns, a snapshot of high-incidence factors, and case resolution insights. The data used for this project was sourced from DATA.GOV [Crime Data from 2020 to Present](https://catalog.data.gov/dataset/crime-data-from-2020-to-present). 
+This project provides a comprehensive analysis of LAPD crime data from 2020 to 2025. It covers key areas including an overview of crime trends, victim demographics, a breakdown of crime patterns, a snapshot of high-incidence factors, and case resolution insights. The data used for this project was sourced from [data.gov](https://catalog.data.gov/dataset/crime-data-from-2020-to-present). 
 ## Project Background
 The Los Angeles Police Department (LAPD) serves as the primary law enforcement agency for Los Angeles, California, and is tasked with maintaining public safety, enforcing laws, and preventing crime. The department operates through 21 community stations (divisions) distributed across the city.
 
@@ -69,7 +69,7 @@ In addition, I created new measures and new columns to provide in-depth insights
 * **Report Delay (Days)**: This is the difference between the time the crime occurred and when it was reported.
 * **Report Delay Band**: This groups the time difference between the time the crime occurred and when it was reported to give a clearer picture of the time gap.
 
-`Helper columns` were created for the `Age Band` and `Report Delay Band` for proper sorting to help when visualizing the data. 
+`Helper Tables` were created for the `Age Band` and `Report Delay Band` for proper sorting to help when visualizing the data. 
 
 **Measures**
 * **Total Crimes**: This counts the total records of crimes recorded between 2020-2025.
@@ -149,25 +149,31 @@ Based on the analysis and key insights derived from this project, I was able to 
 1. **Enhance Nighttime Patrols & Surveillance**
 Since crime occurrences are highest at night (9:00 PM - 4:00 AM), law enforcement should prioritize deploying more patrol units and surveillance resources during these hours. Focusing efforts on high-risk locations such as streets, parking lots, and residential areas can significantly deter criminal activity and enhance public safety.
 
-2. **Focus Resources on Central & High-Incidence Communities**
+2. **Advanced Technology Integration**
+The NYPD leverages advanced tech like AI facial recognition, drones, and DNA testing to boost investigations and respond swiftly to crime. LAPD could benefit from adopting similar tools to enhance its crime-fighting efforts.
+
+3. **Focus Resources on Central & High-Incidence Communities**
 Given that Central, 77th Street, and Pacific communities are the most affected, LAPD should prioritize these divisions for preventive strategies, community engagement, and infrastructure improvements (e.g., lighting, cameras).
 
-3. **Develop Victim Support Programs Focused on Young Adults:**
+4. **Kōban System (Japan)**
+Japan uses small neighborhood police stations called kōban, where officers build strong ties with locals and maintain a constant presence to deter crime. This community-focused model fosters trust and could be a valuable approach for LAPD to adopt.
+
+5. **Develop Victim Support Programs Focused on Young Adults:**
 With individuals aged 20-39 years representing the largest group of crime victims, support services and outreach initiatives should be designed to address the specific needs of this demographic. These may include educational campaigns, mental health support, and community-based interventions for crimes such as identity theft, assault, and domestic violence.
 
-4. **Strengthen Vehicle Theft Prevention Campaigns**
+6. **Strengthen Vehicle Theft Prevention Campaigns**
 As vehicle theft is the most frequently reported crime, there is a need for targeted prevention efforts. These could include public awareness campaigns, partnerships with local media, and community programs promoting the use of anti-theft devices, secure parking practices, and neighborhood watch initiatives in high-risk areas.
 
-5. **Accelerate Case Resolution Processes**
+7. **Accelerate Case Resolution Processes**
 With over 800,000 cases still under investigation, LAPD may need to review investigative workflows, optimize resource allocation, and possibly adopt digital tools to track and expedite case handling.
 
-6. **Address Data Gaps** (e.g., 'Unknown' Weapon and Victim Info)
+8. **Address Data Gaps** (e.g., 'Unknown' Weapon and Victim Info)
 The high number of records with unknown victim sex, weapon type, or descent suggests data quality challenges. Recommend training for field officers on accurate data collection and system enhancements to reduce "unknown" entries.
 
-7. **Investigate Delay Patterns in Crime Reporting**
+9. **Investigate Delay Patterns in Crime Reporting**
 While most crimes are reported within 48 hours, delays in certain cases might reflect fear, lack of access, or mistrust. Conduct community research to uncover and address these barriers.
 
-8. **Utilize Seasonal & Monthly Trends for Proactive Measures**
+10. **Utilize Seasonal & Monthly Trends for Proactive Measures**
 With spikes in crime seen in January, March, and October, LAPD can launch seasonal initiatives, public safety campaigns, and increased patrols around those months.
 
 
